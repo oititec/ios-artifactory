@@ -15,20 +15,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/oititec/ios-liveness-2d.git', :tag => s.version.to_s }
   s.author           = 'Oititec'
   s.platform         = :ios, '10.0'
-  s.swift_versions   = '4.2'
-  
-  s.default_subspecs = 'Release'
-     
-  s.subspec 'Debug' do |debug|
-      debug.source_files = 'OILiveness2D/Classes/**/*'
-  end
-     
-  s.subspec 'Release' do |release|
-      release.vendored_frameworks = 'Framework/Output/OILiveness2D.xcframework'
-  end
+  s.swift_version    = '5.0'
+  s.vendored_frameworks = 'Framework/Output/OILiveness2D.xcframework'
 
-  s.dependency 'OICommons', '~> 1.0.7'
-  s.dependency 'OINetwork', '~> 1.0.3'
-  s.dependency 'OIComponents', '~> 1.0.8'
-
+  s.dependency 'OICommons', '~> 1.0.9'
+  s.dependency 'OINetwork', '~> 1.0.5'
+  s.dependency 'OIComponents', '~> 1.1.2'
 end
