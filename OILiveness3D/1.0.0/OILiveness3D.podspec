@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.dependency 'OICommons', '~> 1.0.9'
-  s.dependency 'OINetwork', '~> 1.0.5'
-  s.dependency 'OIComponents', '~> 1.1.2'
-  s.dependency 'OILiveness3D_FT', '9.6.10'
+  s.dependency 'OINetwork', '~> 1.1.0'
+  s.dependency 'OIComponents', '~> 1.1.3'
+  s.dependency 'OILiveness3D_FT', '9.6.18'
 end
