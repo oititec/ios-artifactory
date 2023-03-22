@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'Framework/Output/OILiveness2D.xcframework'
 
   s.dependency 'OICommons', '~> 1.0.9'
-  s.dependency 'OINetwork', '~> 1.0.5'
-  s.dependency 'OIComponents', '~> 1.1.2'
+  s.dependency 'OINetwork', '~> 1.1.0'
+  s.dependency 'OIComponents', '~> 1.1.3'
 end
