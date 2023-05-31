@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "OIObservability/Output/OIObservability.xcframework"
   s.static_framework = true
 
-  s.dependency 'Firebase/Core'
+  s.dependency 'FirebaseCore'
   s.dependency 'FirebaseAnalytics'
   s.dependency 'FirebaseCrashlytics'
 end
