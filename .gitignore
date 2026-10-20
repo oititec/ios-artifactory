@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Allow traversing directories
+!*/
+
+# Allow only these files
+!README.md
+!.gitignore
+!*.podspec
